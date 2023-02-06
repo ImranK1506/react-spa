@@ -3,7 +3,7 @@
 
 Sample SPA retrieving and displaying data from the [Rick and Morty](https://rickandmortyapi.com/) api
 
-## Getting started
+### Getting started
 
 Install:
 
@@ -17,6 +17,6 @@ Visit:
 
 `http://localhost:8080/`
 
-## License
+### License
 
 [ISC](https://opensource.org/licenses/ISC)
