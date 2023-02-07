@@ -17,6 +17,10 @@ Visit:
 
 `http://localhost:8080/`
 
+### View
+
+View the [result](https://dancing-trifle-81f48a.netlify.app).
+
 ### License
 
 [ISC](https://opensource.org/licenses/ISC)
