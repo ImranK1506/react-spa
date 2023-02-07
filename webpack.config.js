@@ -1,7 +1,13 @@
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
+    output: {
+      path: path.resolve(__dirname, 'build'),
+      publicPath: '/',
+      filename: 'bundle.js'
+    },
   module: {
     rules: [
       {
@@ -19,7 +25,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: path.resolve('./public/index.html'),
       filename: './index.html',
     }),
     new ESLintPlugin(),
